@@ -1,0 +1,25 @@
+
+{
+  "name": "betvictor-test-sample",
+  "version": "0.0.1",
+  "description": "A demonstration of node.js abilities.",
+  "main": "app.js",
+  "author": "Robbie Miller",
+  "license": "MIT",
+  "dependencies": {
+    "express": "latest",
+    "cookie-parser": "latest",
+    "request": "latest",
+    "config": "latest",
+    "morgan": "latest"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "chai-http": "latest",
+    "mocha": "latest"
+  },
+  "scripts": {
+    "start": "SET NODE_ENV=dev && nodemon app.js",
+    "test": "mocha --timeout 10000"
+  }
+}
